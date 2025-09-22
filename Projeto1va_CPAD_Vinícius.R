@@ -24,7 +24,7 @@ dados <- read.csv(file = arquivo,
 head(dados)  # primeiras linhas
 str(dados)   # estrutura e tipos
 
-# --- 4. Limpeza e tratamento de duplicatas -------------------------------
+
 dados <- dados[!duplicated(dados), ]  # remove linhas exatamente idênticas
 
 # --- 5. Conversão de variáveis categóricas em fatores --------------------
