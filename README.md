@@ -25,4 +25,3 @@ library(readr)
 library(dplyr)
 library(e1071)
 library(caret)
-```r
